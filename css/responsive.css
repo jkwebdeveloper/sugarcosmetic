@@ -22,3 +22,14 @@
         display: none;
     }
 }
+@media (max-width: 575px) {
+    .left_content {
+        padding: 10px;
+    }
+    .main_section{
+        padding: 20px 0px 0px 0;
+    }
+    .offer_title{
+        padding-bottom: 20px;
+    }
+}

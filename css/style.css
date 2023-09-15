@@ -9,7 +9,19 @@
 /* -------------------- header css start --------------------  */
 .header {
   background: #000;
+  /* position: sticky; */
+  position: sticky;
+  top: 0;
+  z-index: 999;
   /* padding: 5px; */
+}
+section {
+  overflow: hidden;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .main_header {
   display: flex;
@@ -260,7 +272,6 @@ input {
   border-bottom: 2px solid #fc2779;
 }
 
-
 /* ===================== Secound Slider css Start ===================== */
 .slide-container {
   max-width: 1120px;
@@ -350,3 +361,70 @@ input {
   }
 }
 /* ===================== Secound Slider css End ===================== */
+
+/* ===================== Offer Page Css Start ===================== */
+.left_content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 14px 40px;
+}
+.home_content {
+  color: #8f8f8f;
+}
+.arrow_icon {
+  color: #585858;
+}
+.left_content p {
+  margin-bottom: 0px;
+}
+.offer_content {
+  color: #000;
+  font-weight: 500;
+}
+.main_section {
+  background: #ebeaea;
+  padding: 40px 0px 40px 0px;
+}
+.offer_title {
+  padding-bottom: 30px;
+}
+.offer_title h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 600;
+}
+.offer_title h2:after {
+  background: #f60000;
+  content: "";
+  display: block;
+  height: 4px;
+  margin: 8px auto;
+  width: 60px;
+}
+.offers_box {
+  background: white;
+  border-radius: 14px;
+  /* box-shadow: 0 0 6px #000; */
+  color: #fff;
+  height: 100%;
+  margin-bottom: 20px;
+  padding: 24px 16px 16px;
+  position: relative;
+  /* text-align: center; */
+}
+.offers_box img {
+  width: 100%;
+  border-radius: 10px;
+}
+.box_btn {
+  padding: 10px 30px;
+  float: right;
+  margin: 30px 0px 30px 0px;
+  border-style: dotted;
+  border-color: hotpink;
+  background: #ffc1ca;
+  border-radius: 10px;
+}
+/* ===================== Offer Page Css End ===================== */
